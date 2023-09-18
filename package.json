@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "postinstall": "yarn upgrade"
+  },
+  "keywords": [
+    "nuxt3"
+  ],
+  "name": "nuxt3-todo",
+  "description": "beta sample\nLogin and fork are required to add TODO.",
+  "dependencies": {
+    "nuxt3": "3.0.0-27369360.33ebb01"
+  }
+}
